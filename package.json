@@ -1,0 +1,27 @@
+{
+  "name": "foreach-async",
+  "version": "0.0.0",
+  "description": "Array foreach with capabilities to handle an async callback",
+  "main": "foreach.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sonewman/foreach-async.git"
+  },
+  "keywords": [
+    "array",
+    "foreach",
+    "async"
+  ],
+  "author": "Sam Newman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonewman/foreach-async/issues"
+  },
+  "homepage": "https://github.com/sonewman/foreach-async",
+  "devDependencies": {
+    "tape": "^2.12.3"
+  }
+}
