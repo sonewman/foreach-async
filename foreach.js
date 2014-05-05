@@ -1,7 +1,9 @@
 module.exports = forEach
 
 var toString = Object.prototype.toString
-function isArray(obj) { return toString.call(obj) === '[object Array]' }
+var isArray = Array.isArray || function isArray(obj) { 
+  return toString.call(obj) === '[object Array]' 
+}
 
 function forEach(array, fn, done) {
   var l = isArray(array) ? array.length : 0
