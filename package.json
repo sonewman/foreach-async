@@ -1,6 +1,6 @@
 {
   "name": "foreach-async",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Array foreach with capabilities to handle an async callback",
   "main": "foreach.js",
   "scripts": {
