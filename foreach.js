@@ -10,7 +10,7 @@ function forEach(array, fn, done) {
   var results = []
 
   ;(function next(array, i) {
-    if ((i + 1) > l) return done(results)
+    if (i === l) return done(results)
     var context = { done: function (r) {
       results.push(r)
       next(array, i + 1)
